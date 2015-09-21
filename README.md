@@ -6,8 +6,8 @@ A generic python/Flask app with a Docker file
 2. Install VirtualBox (https://www.virtualbox.org/wiki/Downloads)
 3. Open the newly installed "Docker" folder (in Applications for Mac)
 4. Click "Docker Quickstart Terminal"
-5. Run: docker pull heddle317/docker-flask-example
-6. Run: docker run -p 8080:80 -e ENVIRONMENT='production' -d --name=flask_app heddle317/docker-flask-example
+5. Run: docker pull mrtnnk/martin-docker-flask-example
+6. Run: docker run -p 8080:80 -e ENVIRONMENT='production' -d --name=flask_app mrtnnk/martin-docker-flask-example
 7. Run: VBoxManage controlvm default natpf1 "flask_app,tcp,127.0.0.1,8080,,8080"
 8. Go to localhost:8080 in your browser and you should see "Hello, world!"
 
