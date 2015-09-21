@@ -11,6 +11,7 @@ TEMPLATE_FOLDER = os.path.join(ROOT_PATH, 'templates')
 CSRF_ENABLED = True
 
 if ENV == 'dev':
+    # dev environment
     PORT = 7010
     APP_BASE_LINK = 'http://localhost:' + str(PORT)
     DEBUG = True
